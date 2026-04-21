@@ -22,6 +22,20 @@ This repository serves as a centralized hub for tools and scripts developed to s
 
 ---
 
+## 🛠️ Productivity Toolbox
+*Tools designed to accelerate daily BAU (Business As Usual) tasks.*
+
+### 📸 Automated UAT Evidence Capturer
+* **Problem:** Manually taking and saving screenshots for hundreds of UAT steps is the most time-consuming part of testing.
+* **Solution:** A Python script using `Selenium` or `PyAutoGUI` to automatically capture, timestamp, and label screenshots based on test case IDs.
+* **Benefit:** Ensures audit-ready evidence with zero manual effort.
+
+### 🧪 Synthetic Customer Data Factory
+* **Problem:** Manually creating mock data (NRIC, Account Numbers, Names) for SIT/UAT environments is repetitive and prone to duplication.
+* **Solution:** A data generation script that outputs CSV/Excel files containing unique, valid-format "Dummy Customers" for bulk uploading into the RBS/ODUS systems.
+* **Benefit:** Speeds up test environment setup by 90%.
+---
+
 ### 🔒 Data Safety & Compliance
 **Strict adherence to banking security protocols:** * All code utilizes **synthetic data** and dummy variables.
 * No PII (Personally Identifiable Information) or internal bank credentials are included.
